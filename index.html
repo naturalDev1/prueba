@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba básica</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Nombre de empresa</h1>
+        <nav class="panel">
+            <a href="#tabla-datos">Tabla caracterización</a>
+            <a href="#formulario">Formulario</a>
+        </nav>
+    </header>
+    <main>
+        <section- id="tabla-datos">
+            <h2>Tabla de caracterización</h2>
+            <table cellpadding="1" class="tabla">           
+                <tr>
+                    <td rowspan="2" class="titulo-tabla">Nombre</td>
+                    <td colspan="2" class="titulo-tabla">IMC</td>
+                    <td rowspan="2" class="titulo-tabla">Hobbies</td>
+                    <td rowspan="2" class="titulo-tabla">Materias</td>
+                </tr>
+                <tr>
+                    <td class="subtitulo-tabla">Peso</td>
+                    <td class="subtitulo-tabla">Altura</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Jorge</td>
+                    <td>88</td>
+                    <td>1,58</td>
+                    <td>correr</td>
+                    <td>Estadística</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Maria</td>
+                    <td>60</td>
+                    <td>1,65</td>
+                    <td>leer</td>
+                    <td>Antropología</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Santiago</td>
+                    <td>70</td>
+                    <td>1,70</td>
+                    <td>videojuegos</td>
+                    <td>Ecología</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Sandra</td>
+                    <td>50</td>
+                    <td>1,60</td>
+                    <td>escuchar música</td>
+                    <td>Cálculo</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Andrés</td>
+                    <td>90</td>
+                    <td>1,80</td>
+                    <td>ver películas</td>
+                    <td>Geografía</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Camila</td>
+                    <td>55</td>
+                    <td>1,70</td>
+                    <td>hacer deporte</td>
+                    <td>Filosofía</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Pedro</td>
+                    <td>75</td>
+                    <td>1,75</td>
+                    <td>salir con amigos</td>
+                    <td>Lengua materna</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Sandra</td>
+                    <td>65</td>
+                    <td>1,65</td>
+                    <td>viajar</td>
+                    <td>Historia</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Andrea</td>
+                    <td>70</td>
+                    <td>1,70</td>
+                    <td>Senderismo</td>
+                    <td>Matemáticas</td>
+                </tr>
+                <tr>
+                    <td class="nombre-tabla">Camilo</td>
+                    <td>80</td>
+                    <td>1,80</td>
+                    <td>hNadar</td>
+                    <td>Química</td>
+                </tr>
+            </table>
+        </section>
+        <section id="formulario">
+            <h2>Formulario de información básica</h2>
+            <form method="post" name="datos" action="send" target="_blank">
+                <fieldset>
+                    <legend>Rellenar</legend>
+                    <ul>
+                        <li>
+                            <label for="genero">
+                                <select name="genero" id="form-genero">
+                                    <option value="maculino">Masculino</option>
+                                    <option value="femenino">Femenino</option>
+                                    <option value="otro">Otro</option>
+                                    <option value="no-decirlo">Prefiero no decirlo</option>
+                                </select>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="color">Elija un color</label>
+                                <input type="color" id="color" name="color">
+                            </label>
+                        </li>
+                        <li>
+                            <label for="fecha">Elija una fecha</label>
+                            <input type="date" id="fecha" name="fecha">
+                        </li>
+                        <li>
+                            <label for="lenguaje">Lenguajes de programación que domina</label>
+                            <br>
+                            <input type="radio" name="java">java</input>
+                            <input type="radio" name="Python">Python</input>
+                            <input type="radio" name="HTML">HTML</input>
+                            <input type="radio" name="Visual Basic">Visual Basic</input>
+                            <input type="radio" name="CSS">CSS</input>
+                            <input type="radio" name="Javascript">Javascript</input>
+                            <input type="radio" name="C#">C#</input>
+                        </li>
+                        <li>
+                            <label for="sexo"></label>
+                            <input type="checkbox" name="hombre">Hombre</input>
+                            <input type="checkbox" name="mujer">Mujer</input>
+                        </li>
+                        <li>
+                            <label for="fichero">Elija un fichero</label>
+                            <br>
+                            <input type="file" id="fichero" name="fichero">
+                        </li>
+                        <br>
+                        <li>
+                            <label for="texto"></label>
+                            <textarea name="texto" id="texto" cols="30" rows="10">Por favor, escriba aquí su texto</textarea>
+                        </li>
+                        <li>
+                            <label for="instituto">Instiuto</label>
+                            <input type="text" id="instituto" name="instituto">
+                        </li>
+                        <li>
+                            <label for="estudios">Estudios elegidos</label>
+                            <input type="text" id="estudios" name="estudios">
+                        </li>
+                        <li>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre">
+                        </li>
+                        <li>
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" name="apellidos">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="nombre@correo.com">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Rellene las siguientes opciones</legend>
+                    <ul>
+                        <li>
+                            <label for="os"></label>
+                            <input type="checkbox" name="os" value="windows">Windows</input>
+                            <input type="checkbox" name="os" value="mac">Mac</input>
+                            <input type="checkbox" name="os" value="linux">Linux</input>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="hora">Elija una hora</label>
+                            <input type="time" id="hora" name="hora">
+                        </li>
+                    </ul>
+                </fieldset>
+                <input type="submit" class="botones" name="enviar" value="Enviar">
+                <input type="reset" class="botones" name="reset" value="Limpiar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

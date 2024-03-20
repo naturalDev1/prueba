@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to bottom, #000000, #7f5cff);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.panel {
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    background-color: #c0c0c0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tabla {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.titulo-tabla {
+    background-color: #1246d6;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo-tabla {
+    background-color: #2395f3;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nombre-tabla {
+    background-color: #9fd5df;
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(186, 238, 220);
+}
+
+ul {
+    list-style-type: none;
+}
+
+fieldset {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+legend {
+    color: #000000;
+    background-color: #c0c0c0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+
+.botones {
+    background-color: #c0c0c0;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
